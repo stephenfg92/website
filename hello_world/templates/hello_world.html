@@ -2,13 +2,46 @@
 {% load static %}
 
 {% block page_content %}
-<body class="text-center">
-	<div class = "row h-75">
-		<div class="col-md-8 offset-md-2 my-auto">
- 		<img src="{% static 'images/me.jpg' %}" class=" img-thumbnail rounded-circle"> 
-		<h1 class="cover-heading pt-4">Stephen Guarda</h1>
-			<p class="lead pt-4">Me intesso por programação há alguns anos. Resolvi criar esse site para compartilhar meus conhecimentos e falar das coisas que gosto. Atualmente estou trabalhando numa série de artigos que ensinam conceitos utilizados no desenvolvilmento de jogos multijogador.</p>
+<body>
+
+	<div class="container-fluid">
+
+		<div class ="row">
+			<div class= "col-md-10 col-lg-8 mx-auto">
+				<div class="text-center">
+	 				<img src="{% static 'images/me.jpg' %}" class="img-thumbnail rounded-circle">
+	 			</div>
+	 		</div>
+	 	</div>
+
+	 	<div class = "row">
+	 		<div class="col-md-10 col-lg-8 mx-auto">
+	 				<div class="text-center">
+						<h1 class="cover-heading pt-4">Stephen Guarda</h1>
+					</div>
+			</div>
 		</div>
+
+		<div class="row">
+			<div class="col-md-10 col-lg-8 mx-auto">
+				<div class="text-center">
+					<p class="lead pt-4">Me interesso por programação há alguns anos. Resolvi criar esse site para compartilhar esse meu interesse, falando das coisas que gosto e que aprendi. Atualmente estou trabalhando numa série de artigos que ensinam conceitos utilizados no desenvolvimento de jogos multijogador.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-10 col-lg-8 mx-auto text-center">
+
+			  <a href="https://twitter.com/stephenfg"><i class="bi bi-twitter" style="font-size: 2rem"></i></a>
+
+              <a href="mailto:contato@stephenfg.com.br"><i class="bi bi-mailbox2" style="font-size: 2rem"></i></a>
+
+			</div>
+
+		</div>
+
 	</div>
+
 </body>
 {% endblock %}
