@@ -11,7 +11,7 @@
 		</a>&nbsp;
 		{% endfor %}
 	</small>
-	<p>{{ post.body | linebreaks }}</p>
+	<p>{{ post.body | safe |escape |linebreaks }}</p>
 
 </div>
 {% endblock %}
